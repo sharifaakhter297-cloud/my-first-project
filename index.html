@@ -3,15 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharifa Akhter | Portfolio</title>
+    <title>Sharifa Akhter | Full Stack Developer</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; background-color: #0d1117; color: #ffffff; }
-        h1 { color: #58a6ff; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #0d1117; 
+            color: #c9d1d9; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+        h1 { color: #58a6ff; font-size: 2.5rem; margin-bottom: 10px; }
+        h2 { color: #8b949e; font-size: 1.3rem; font-weight: 400; margin-bottom: 20px; }
+        p { color: #8b949e; font-size: 1rem; line-height: 1.6; margin-bottom: 25px; }
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background: #21262d;
+            color: #58a6ff;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid #30363d;
+        }
     </style>
 </head>
 <body>
-    <h1>Hello GitHub! 👋</h1>
-    <h2>I am Sharifa Akhter</h2>
-    <p>Full Stack Web Developer | Building Scalable Web Applications</p>
+    <div class="container">
+        <h1>Hi, I'm Sharifa Akhter 👋</h1>
+        <h2>Full Stack Web Developer</h2>
+        <p>Specialized in building scalable web applications with the MERN stack and Next.js.</p>
+        <div class="skills">
+            <span class="tag">MongoDB</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">React.js</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Next.js</span>
+        </div>
+    </div>
 </body>
 </html>
